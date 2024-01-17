@@ -1,0 +1,8 @@
+.blogs-container {
+  display: flex;
+}
+.marked-blog {
+  background-color: rgba(17, 17, 17, 0.05);
+  flex-grow: 1;
+  margin-left: 24px;
+}
