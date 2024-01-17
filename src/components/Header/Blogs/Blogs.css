@@ -1,8 +1,16 @@
 .blogs-container {
   display: flex;
 }
-.marked-blog {
-  background-color: rgba(17, 17, 17, 0.05);
+.marked-blog-container {
   flex-grow: 1;
   margin-left: 24px;
+}
+.marked-blog {
+  background-color: rgba(17, 17, 17, 0.05);
+  height: 100%;
+  border-radius: 8px;
+}
+.post-read-time {
+  border-radius: 8px;
+  background-color: rgba(96, 71, 236, 0.1);
 }

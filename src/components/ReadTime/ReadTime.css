@@ -1,0 +1,8 @@
+.spent-read-time {
+  padding: 16px 30px;
+}
+.spent-read-time h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(96, 71, 236, 1);
+}

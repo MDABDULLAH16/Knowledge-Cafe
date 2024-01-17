@@ -3,7 +3,7 @@ import "./Blog.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 
-const Blog = ({ blog, handleBookMark }) => {
+const Blog = ({ blog, handleBookMark, handleReadTime }) => {
   const {
     banner_img,
     title,
@@ -38,7 +38,12 @@ const Blog = ({ blog, handleBookMark }) => {
           <h1>{title}</h1>
           <p>{tags}</p>
         </div>
-        <a className="mark-as-read">Mark as read</a>
+        <a
+          onClick={() => handleReadTime(post_read_time)}
+          className="mark-as-read"
+        >
+          Mark as read
+        </a>
       </div>
       <hr />
     </div>
