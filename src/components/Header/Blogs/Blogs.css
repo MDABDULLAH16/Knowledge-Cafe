@@ -14,3 +14,13 @@
   border-radius: 8px;
   background-color: rgba(96, 71, 236, 0.1);
 }
+@media screen and (max-width: 768px) {
+  .blogs-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+  .marked-blog-container {
+    width: 100%;
+    flex-grow: 1;
+  }
+}
