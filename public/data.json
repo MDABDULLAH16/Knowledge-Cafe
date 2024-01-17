@@ -4,7 +4,7 @@
     "banner_img": "https://images.unsplash.com/photo-1605379399642-870262d3d051?q=80&w=1812&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Exploring the World of Algorithms",
     "user_name": "JohnDoe",
-    "user_img": "path/to/user1.jpg",
+    "user_img": "../src/images/boy1.png",
     "post_time": "Mar 14 (4 Days ago)",
     "post_read_time": 5,
     "tags": "#beginner, #programming"
@@ -14,7 +14,7 @@
     "banner_img": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "JavaScript: A Guide for Beginners",
     "user_name": "JaneSmith",
-    "user_img": "path/to/user2.jpg",
+    "user_img": "../src/images/boy2.png",
     "post_time": "Mar 15 (3 Days ago)",
     "post_read_time": 8,
     "tags": "#coding, #development"
@@ -24,7 +24,7 @@
     "banner_img": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Python Tricks for Efficient Coding",
     "user_name": "Coder123",
-    "user_img": "path/to/user3.jpg",
+    "user_img": "../src/images/girl1.jpg",
     "post_time": "Mar 16 (2 Days ago)",
     "post_read_time": 7,
     "tags": "#python, #tips"
@@ -34,7 +34,7 @@
     "banner_img":"https://images.unsplash.com/photo-1511376777868-611b54f68947?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Web Development Trends in 2024",
     "user_name": "WebDevMaster",
-    "user_img": "../src/images/boy1.png",
+    "user_img": "../src/images//girl2.jpg",
     "post_time": "Mar 17 (1 Day ago)",
     "post_read_time": 10,
     "tags": "#webdev, #trends"
