@@ -1,9 +1,9 @@
 import React from "react";
 import "./Blog.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBookBookmark, faBookmark } from "@fortawesome/free-solid-svg-icons";
+import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleBookMark }) => {
   const {
     banner_img,
     title,
@@ -13,6 +13,7 @@ const Blog = ({ blog }) => {
     post_read_time,
     tags,
   } = blog;
+
   return (
     <div className="blog">
       <img src={banner_img} alt="" />
@@ -26,7 +27,10 @@ const Blog = ({ blog }) => {
         </div>
         <div className="flex read-time ">
           <p>{post_read_time} min read</p>
-          <FontAwesomeIcon className="book-mark" icon={faBookmark} />
+          <button onClick={() => handleBookMark(blog)} className="book-mark">
+            {" "}
+            <FontAwesomeIcon icon={faBookmark} />
+          </button>
         </div>
       </div>
       <div className="title">

@@ -17,6 +17,8 @@
 }
 .book-mark {
   color: gray;
+  border: none;
+  cursor: pointer;
 }
 .read-time p {
   margin-right: 10px;
