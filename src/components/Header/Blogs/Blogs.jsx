@@ -3,6 +3,7 @@ import Blog from "../../Blog/Blog";
 import "./Blogs.css";
 import BookMarked from "../../BookMarked/BookMarked";
 import ReadTime from "../../ReadTime/ReadTime";
+import toast from "react-hot-toast";
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
@@ -17,7 +18,8 @@ const Blogs = () => {
   const handleBookMark = (id) => {
     const exist = blog.find((blog) => blog.id === id.id);
     if (exist) {
-      alert("its already added");
+      toast("it is already marked");
+      // alert("its already added");
     } else {
       const newBlog = [...blog, id];
       setBlog(newBlog);

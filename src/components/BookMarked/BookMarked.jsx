@@ -1,6 +1,7 @@
 import React from "react";
 import "./BookMarked.css";
 import Marked from "../Marked/Marked";
+import { Toaster } from "react-hot-toast";
 const BookMarked = ({ blog }) => {
   return (
     <div className="blog-title-length">
@@ -8,6 +9,7 @@ const BookMarked = ({ blog }) => {
       {blog.map((blog) => (
         <Marked key={blog.id} blog={blog}></Marked>
       ))}
+      <Toaster></Toaster>
     </div>
   );
 };
